@@ -1,0 +1,26 @@
+
+body {
+	padding-left: 25%;
+	background-color: #023;
+}
+
+* {
+	font-weight: bold;
+	color: #fff;
+	font-family: Arial;
+	font-size: 1.5em;
+}
+
+span {
+	color: #f00;
+}
+
+info {
+	font-size: 1.5em;
+	color: #0f0;
+}
+
+korsan {
+	font-size: 1.6em;
+	color: #d00;
+}
