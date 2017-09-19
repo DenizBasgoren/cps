@@ -46,6 +46,5 @@ setInterval(function () {
 // click
 //setinterval starts counting
 //click
-//interval is stopped
 //cps is calculated
 //time is emptied
