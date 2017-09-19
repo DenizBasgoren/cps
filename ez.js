@@ -13,7 +13,8 @@ setInterval( function () {
 	time += 0.01;
 },10);
 
-window.onclick = function () {
+window.onclick = function (e) {
+	e.preventDefault();
 	cps = 1/time;
 	time = 0;
 	if (cps > record) {
