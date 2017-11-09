@@ -9,13 +9,18 @@ var record = 0;
 
 // CONTROLLER
 
-setInterval( function () {
-	time += 0.01;
-},10);
 
-window.onclick = function () {
-	cps = 1/time;
-	time = 0;
+
+onclick = function () {
+
+	if (!time) {
+		time = new Date()
+		return
+	}
+	
+	cps = 1000/(new Date() - time + 0.01)
+	time = new Date()
+	
 	if (cps > record) {
 		record = cps;
 	}
